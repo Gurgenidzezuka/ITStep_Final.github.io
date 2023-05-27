@@ -66,7 +66,7 @@ ScrollReveal({
     distance: '50px',
   });
   
-  const swiper = new Swiper('.swiper1', {
+ const swiper = new Swiper('.swiper1', {
     direction: 'horizontal',
     loop: true,
     speed: 600,
@@ -83,7 +83,7 @@ ScrollReveal({
       },
       768: {
         slidesPerView: 4,
-        spaceBetween: 40,
+        spaceBetween: 40, 
       },
       1024: {
         slidesPerView: 6,
