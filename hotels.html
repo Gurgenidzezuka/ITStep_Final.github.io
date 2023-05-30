@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hottels.css">
+    <link
+      rel="stylesheet"
+      media=" screen and (max-width:768px)"
+      href="mobile.css"
+    />
+    <title>Document</title>
+</head>
+<body>
+  <section class="hotel-restaurants" id="restaurants">
+    <div class="container">
+      <div class="title-container">
+        <h2 class="section-title">Hotels and Restaurants</h2>
+      </div>
+      <div class="hotel-card">
+        <div class="hotel-cards">
+          <div class="Hotel" onclick="toggleHotelInfo(1)">
+            <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fHVx00by1wYWdlfHx8fHpw07& q=80" alt="" width="320" height="380">
+            <h5>Monastero Santa Rosa Hotel & Spa</h5>
+            <h6><img src="map-pin-line.png" alt="">Salerno, Italy</h6>
+            <div class="ratings"><img src="rating=5.png" alt=""></div>
+          </div>
+          <div class="hotel-info" id="hotel-info-1" style="display: none;">
+            <p>This luxury hotel is located in Salerno, Italy. It offers breathtaking views of the surrounding landscape and has world-class amenities. Monastero Santa Rosa Hotel & Spa provides a tranquil and relaxing environment for guests to unwind and enjoy the ultimate in luxury. With its elegant architecture and stunning interior, it is the perfect place for a memorable vacation.</p>
+          </div>
+          <button onclick="bookHotel()">Reserve</button>
+          <h2>Price $5000</h2>
+          
+        </div>
+    
+        
+ 
+        
+
+  
+        <div class="hotel-cards">
+          <div class="hotel" onclick="toggleHotelInfo(2)">
+            <img src="https://images.unsplash.com/photo-1586974726316-c6302de6a160?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80" alt="" width="320" height="380">
+            <h5>Grand Hotel Tremezzo</h5>
+            <h6><img src="map-pin-line.png" alt="">Lake Como, Italy</h6>
+            <div class="ratings"><img src="rating=3.png" alt=""></div>
+           
+          </div>
+          <div class="hotel-info" id="hotel-info-2" style="display: none;">
+            <p>The Grand Hotel Tremezzo is a luxurious lakeside retreat located in Lake Como, Italy. It offers stunning views of the lake and surrounding mountains. With its elegant rooms, exquisite dining options, and world-class amenities, this hotel provides a truly unforgettable experience. Guests can relax by the pool, indulge in spa treatments, or explore the charming nearby villages. The Grand Hotel Tremezzo is the perfect destination for a memorable stay in Lake Como.</p>
+          </div>
+          <button onclick="bookHotel()">Reserve</button>
+          <h2>Price $5700</h2>
+        
+        </div>
+        
+  
+       
+        <div class="hotel-cards">
+          <div class="hotel" onclick="toggleHotelInfo(3)">
+            <img src="https://images.unsplash.com/photo-1445019980597-93fa8acb246c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80" alt="" width="320" height="380">
+            <h5>The Oberoi Udaivilas, Udaipur</h5>
+            <h6><img src="map-pin-line.png" alt="">Udaipur, India</h6>
+            <div class="ratings"><img src="rating=4.png" alt=""></div>
+          </div>
+          <div class="hotel-info" id="hotel-info-3" style="display: none;">
+            <p>The Oberoi Udaivilas, Udaipur is a luxurious hotel located in Udaipur, India. It offers a royal experience with its stunning architecture, regal interiors, and beautiful gardens. The hotel provides a range of amenities, including a spa, multiple dining options, and luxurious rooms and suites. Guests can enjoy the picturesque views of Lake Pichola and the city of Udaipur. The Oberoi Udaivilas is a perfect choice for those seeking a luxurious and memorable stay in Udaipur.</p>
+          </div>
+          <button onclick="bookHotel()">Reserve</button>
+          <h2>Price $1500</h2>
+       
+        </div>
+        
+        <div class="hotel-cards">
+          <div class="hotel" onclick="toggleHotelInfo(4)">
+            <img src="https://images.unsplash.com/photo-1498503182468-3b51cbb6cb24?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="AKA Beverly Hills" width="320" height="380">
+         
+          <h5>AKA Beverly Hills</h5>
+          <h6><img src="map-pin-line.png" alt="">Los Angeles, United States</h6>
+          <div class="ratings"><img src="rating=3.png" alt=""></div>
+        </div>
+        <div class="hotel-info" id="hotel-info-4" style="display: none;">
+          <p>AKA Beverly Hills is a popular choice for both leisure and business travelers looking for upscale accommodations in a prime location. Whether you're visiting Los Angeles for a short stay or an extended period, AKA Beverly Hills offers a luxurious and convenient base for exploring the city and enjoying the amenities and services it provides</p>
+        </div>
+        <button onclick="bookHotel()">Reserve</button>
+        <h2>Price $3700</h2>
+      
+      </div>
+     
+            <div class="hotel-cards">
+              <div class="hotel" onclick="toggleHotelInfo(5)">
+                <img src="https://images.unsplash.com/photo-1549294413-26f195200c16?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1964&q=80" alt="" width="320" height="380">
+              
+              <h5>Majestic Elegance</h5>
+              <h6><img src="map-pin-line.png" alt="">Dominican Republic</h6>
+              <div class="ratings"><img src="rating=4.png" alt=""></div>
+            </div>
+            <div class="hotel-info" id="hotel-info-5" style="display: none;">
+              <p>Majestic Elegance is a luxurious resort located in the beautiful destination of Punta Cana, Dominican Republic. It offers a perfect blend of elegance, comfort, and natural beauty. The resort is situated along the pristine beaches of Punta Cana, providing guests with breathtaking views of the Caribbean Sea and lush tropical surroundings.</p>
+            </div>
+            <button onclick="bookHotel()">Reserve</button>
+            <h2>Price $4500</h2>
+          
+          </div>
+       
+          <div class="hotel-cards">
+            <div class="hotel" onclick="toggleHotelInfo(6)">
+                <img src="https://images.unsplash.com/photo-1586495985096-787fb4a54ac0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80" alt="" width="320" height="380">
+              
+              <h5>Dreams Watervilla</h5>
+              <h6><img src="map-pin-line.png" alt="">Meeru Island, Maldives</h6>
+              <div class="ratings"><img src="rating=5.png" alt=""></div>
+            </div>
+            <div class="hotel-info" id="hotel-info-6" style="display: none;">
+              <p>Dreams Watervilla offers a range of activities and amenities to enhance your Maldivian getaway. Guests can snorkel or dive in the vibrant coral reefs, go kayaking or paddleboarding, or simply unwind on the pristine white sand beaches. The resort also features a luxurious spa where you can indulge in rejuvenating treatments and massages.</p>
+            </div>
+            <button onclick="bookHotel()">Reserve</button>
+            <h2>Price $2000</h2>
+     
+          </div>
+          <div class="hotel-cards">
+            <div class="hotel" onclick="toggleHotelInfo(7)">
+            
+                <img src="https://images.unsplash.com/photo-1594741158704-5a784b8e59fb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="" width="320" height="380">
+              
+              <h5>Waldorf Astoria</h5>
+              <h6><img src="map-pin-line.png" alt="">Rome, Italy</h6>
+              <div class="ratings"><img src="rating=3.png" alt=""></div>
+            </div>
+            <div class="hotel-info" id="hotel-info-7" style="display: none;">
+              <p>The Waldorf Astoria Rome boasts exquisite and spacious rooms and suites, each designed with meticulous attention to detail. The elegant decor, luxurious furnishings, and modern amenities create a refined and comfortable ambiance for guests to enjoy.</p>
+
+               
+            </div>
+
+            <button onclick="bookHotel()">Reserve</button>
+            <h2>Price $6000</h2>
+           
+          </div>
+            <div class="hotel-cards">
+              <div class="hotel" onclick="toggleHotelInfo(8)">
+                <img src="https://images.unsplash.com/photo-1525596662741-e94ff9f26de1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="" width="320" height="380">
+             
+              <h5>Gilli Air</h5>
+              <h6><img src="map-pin-line.png" alt="">Indonesia</h6>
+              <div class="ratings"><img src="rating=4.png" alt=""></div>
+            </div>
+            <div class="hotel-info" id="hotel-info-8" style="display: none;">
+              <p>
+                Gili Air is a picturesque island located in the Gili Islands archipelago, situated off the northwest coast of Lombok, Indonesia. Known for its pristine beaches, crystal-clear turquoise waters, and laid-back atmosphere, Gili Air is a popular destination for travelers seeking a tropical paradise.</p>
+
+               
+            </div>
+            <button onclick="bookHotel()">Reserve</button>
+            <h2>Price $3000</h2>
+          
+          </div>
+         
+            <div class="hotel-cards">
+              <div class="hotel" onclick="toggleHotelInfo(9)">
+                <img src="savoy.png" alt="" width="320" height="380">
+             
+              <h5>The Savoy</h5>
+              <h6><img src="map-pin-line.png" alt="">London</h6>
+              <div class="ratings"><img src="rating=4.png" alt=""></div>
+            </div>
+            <div class="hotel-info" id="hotel-info-9" style="display: none;">
+              <p>
+                Gili Air is a picturesque island located in the Gili Islands archipelago, situated off the northwest coast of Lombok, Indonesia. Known for its pristine beaches, crystal-clear turquoise waters, and laid-back atmosphere, Gili Air is a popular destination for travelers seeking a tropical paradise.</p>
+
+               
+            </div>
+            <button onclick="bookHotel()">Reserve</button>
+            <h2>Price $5000</h2>
+           
+          </div>
+            <div class="hotel-cards">
+              <div class="hotel" onclick="toggleHotelInfo(10)">
+                <img src="aman1.png" alt="" width="320" height="380">
+              
+              <h5>Aman</h5>
+              <h6><img src="map-pin-line.png" alt="">Tokyo</h6>
+              <div class="ratings"><img src="rating=4.png" alt=""></div>
+            </div>
+            <div class="hotel-info" id="hotel-info-10" style="display: none;">
+              <p>Aman resorts can be found in some of the most sought-after destinations, including tropical islands, historic cities, and remote wilderness areas. Each property is carefully designed to blend harmoniously with its surroundings, often incorporating local architectural styles and cultural elements. From secluded beachfront retreats to tranquil mountain escapes, Aman offers a diverse range of destinations for travelers seeking an unparalleled level of luxury and serenity.</p>
+
+               
+            </div>
+            <button onclick="bookHotel()">Reserve</button>
+            <h2>Price $5500</h2>
+           
+          </div>
+            <div class="hotel-cards">
+              <div class="hotel" onclick="toggleHotelInfo(11)">
+              <img src="burj.png" alt="" width="320" height="380">
+           
+            <h5>Burj Al Arab Jumeirah</h5>
+            <h6><img src="map-pin-line.png" alt="">United Arab Emirates</h6>
+            <div class="ratings"><img src="rating=5.png" alt=""></div>
+          </div>
+          <div class="hotel-info" id="hotel-info-11" style="display: none;">
+            <p>The Burj Al Arab Jumeirah features 202 luxurious suites, each spanning two floors and offering panoramic views of the ocean or the city skyline. The suites are exquisitely designed and furnished with the finest materials, incorporating a blend of traditional Arabian elements and contemporary style. Guests enjoy personalized 24-hour butler service, ensuring their every need is met with exceptional attention to detail.</p>
+
+             
+          </div>
+          <button onclick="bookHotel()">Reserve</button>
+          <h2>Price $4000</h2>
+        
+        </div>
+          <div class="hotel-cards">
+            <div class="hotel" onclick="toggleHotelInfo(12)">
+            <img src="plaza.png" alt="" width="320" height="380">
+          
+          <h5>The Plaza Hotel</h5>
+          <h6><img src="map-pin-line.png" alt="">New York</h6>
+          <div class="ratings"><img src="rating=5.png" alt=""></div>
+        </div>
+        <div class="hotel-info" id="hotel-info-12" style="display: none;">
+          <p>The hotel features 282 beautifully appointed guest rooms and suites, each exuding a sense of grandeur and refined luxury. The accommodations are designed with classic European influences, offering a blend of old-world charm and modern amenities. Guests can expect luxurious furnishings, plush bedding, marble bathrooms, and state-of-the-art technology to ensure a comfortable and memorable stay.</p>
+
+           
+        </div>
+        <button onclick="bookHotel()">Reserve</button>
+        <h2>Price $5000</h2>
+      
+      </div>
+          <script src="hotels.js"></script>
+          <script src="data.js"></script>
+</body>
+</html>
