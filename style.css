@@ -5,7 +5,7 @@
 
 
 :root {
-  /* color palate */
+
   --primary-color: #7b61ff;
   --secondary-color: #f6f4ff;
   --footer-color: #f9f9f9;
@@ -47,7 +47,7 @@
   background: #f6f4ff;
   border-radius: 12px;
   cursor: pointer;
-  /* margin-left: -6rem; */
+ 
 }
 
 * {

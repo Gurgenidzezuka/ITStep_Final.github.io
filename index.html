@@ -51,27 +51,13 @@
             <li class="lists"><a href="#Destinations">Destinations</a></li>
             <li class="lists"><a href="#activities">Activities</a></li>
             <li class="lists"><a href="#contact">Contact</a></li>
-            <li class="lists"><a href="index2.html">login</a></li>
-            <li class="lists"><a href="reg.html">Registration</a></li>
+            
             
 
 
           </ul>
         </nav>
-        <div class="profile">
-          <div class="name">
-            <h2>
-              <span class="hello">Holla,</span>
-              <span class="name2">Ales Nesetril</span>
-            </h2>
-          </div>
-          <div class="profile-pic">
-            <img
-              src="user.png"
-              alt=""
-            />
-          </div>
-        </div>
+      
       </header>
       <div class="content">
         <h1>Discover the most engaging places</h1>
@@ -79,6 +65,25 @@
           <img src="globe.png" alt="" /> Discover on 3D globe</a
         >
       </div>
+       <h2 id="welcome-message" style="color: white;"></h2>
+  
+    <button onclick="logout()" style="background-color: rgb(222, 222, 222); border: none; width: 80px; height: 30px; color: white; border-radius: 12px;">Logout</button>
+
+    <script>
+      const loggedInUser = JSON.parse(localStorage.getItem('loggedInUser'));
+
+      if (loggedInUser) {
+        const welcomeMessage = document.getElementById('welcome-message');
+        welcomeMessage.textContent = `Welcome, ${loggedInUser.userName}!`;
+      } else {
+        window.location.href = 'login.html';
+      }
+
+      function logout() {
+        localStorage.removeItem('loggedInUser');
+        window.location.href = 'login.html';
+      }
+    </script>
       <div id="results-container"></div>
      
       <div class="search">
